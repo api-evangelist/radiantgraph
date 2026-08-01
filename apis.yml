@@ -1,8 +1,25 @@
 aid: radiantgraph
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/radiantgraph.png
 name: RadiantGraph
-description: 'RadiantGraph is a company surfaced as a portfolio company of true-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'RadiantGraph is a healthcare engagement platform that turns fragmented health data into
+  personalized member connections to improve clinical outcomes and reduce wasted spend. Its "Intelligent
+  Personalization" product suite includes a Health Data Engine that ingests and enriches member records
+  with 80+ social determinants of health, Smart Cohorts for identifying high-risk member groups, and Smart
+  Spend for scoring members on clinical risk. The platform integrates with CRMs, contact centers, campaign
+  engines, portals, and care-management systems, connecting claims data warehouses, clinical data repositories,
+  and member-demographics sources. Backed by True Ventures. No public developer platform, API documentation,
+  or SDKs were found at the time of enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/radiantgraph/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Healthcare
+- Health Data
+- Personalization
+- Member Engagement
+- Care Management
+- Social Determinants of Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/radiantgraph-domain-security.yml
 - type: Website
   url: https://www.radiantgraph.com/
+- type: TermsOfService
+  url: https://44461861.fs1.hubspotusercontent-na1.net/hubfs/44461861/Terms%20Jan%202024.pdf
+- type: PrivacyPolicy
+  url: https://44461861.fs1.hubspotusercontent-na1.net/hubfs/44461861/Privacy%20Policy%20January%202026.pdf
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
